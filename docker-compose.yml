@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  clickhouse_metabase:
+    image: docker.io/metabase/metabase:latest
+    build: .
+    ports:
+      - 3000:3000
